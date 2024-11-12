@@ -9,6 +9,7 @@ export default function HomePage() {
     <div className="bg-gray-100 ">
       <Header />
       <MainView/>
+      <Services/>
       
     </div>
   );
