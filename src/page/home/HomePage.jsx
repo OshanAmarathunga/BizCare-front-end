@@ -4,6 +4,7 @@ import ImageSlider from "../../components/slider/OurClients";
 import Services from "../../components/services/Services";
 import MainView from "../../components/header/MainView";
 import OurClients from "../../components/slider/OurClients";
+import Footer from "../../components/header/Footer";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <MainView/>
       <Services/>
       <OurClients/>
+      <Footer/>
       
     </div>
   );

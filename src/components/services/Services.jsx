@@ -3,7 +3,7 @@ import React from "react";
 export default function Services() {
   return (
     <div className="bg-white mx-10 rounded-2xl mt-3 md:flex-col p-3">
-      <h1 className="text-[20px] md:text-[50px] font-bold p-3 font-poppins">
+      <h1 className="text-[20px] md:text-[40px] font-bold p-3 font-poppins">
         What we can offer for you !
       </h1>
       <div className="mx-10">
