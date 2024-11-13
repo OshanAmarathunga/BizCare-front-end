@@ -5,7 +5,7 @@ export default function Celibration() {
     <div className="bg-white mx-10 rounded-2xl mt-10">
       <div className="flex flex-col md:flex-row font-poppins px-10 py-5 ">
         <div className="bg-gray-100 rounded-3xl p-5">
-          <h1 className="font-bold text-[40px] text-center">
+          <h1 className="font-bold text-[30px] md:text-[35px] text-center">
             Celebrating a Decade of Building Great Solutions
           </h1>
           <h1 className="text-justify mt-5">
