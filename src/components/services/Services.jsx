@@ -6,7 +6,7 @@ export default function Services() {
       <h1 className="text-[20px] md:text-[40px] font-bold p-3 font-poppins">
         What we can offer for you !
       </h1>
-      <div className="mx-10">
+      <div className="mx-1 md:mx-10">
         <div className="bg-blue-950 pt-1 px-5 rounded-2xl mb-2 w-full">
           <h1 className="text-[15px] font-poppins text-white md:text-[20px] font-bold">
             1. Finance Services
@@ -67,7 +67,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="bg-blue-950 pt-1 px-5 mx-10 rounded-2xl mb-2">
+      <div className="bg-blue-950 pt-1 px-5 mx-1 md:mx-10 rounded-2xl mb-2">
         <h1 className="text-[15px] font-poppins text-white  md:text-[20px] font-bold">
           2. Direct & Indirect agricultural exports
         </h1>
@@ -88,7 +88,7 @@ export default function Services() {
         </ul>
       </div>
 
-      <div className="bg-blue-950 pt-1 font-poppins  px-5 mx-10 rounded-2xl mb-2">
+      <div className="bg-blue-950 pt-1 font-poppins  px-5 mx-1 md:mx-10 rounded-2xl mb-2">
         <h1 className="text-[15px] text-white md:text-[20px] font-bold">
           3. Agricultural export consultancy
         </h1>
