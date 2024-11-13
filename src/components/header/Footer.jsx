@@ -7,7 +7,7 @@ export default function Footer() {
         <h1 className="px-2"> BizCare (pvt) ltd</h1>
       </div>
       <div>
-        <h1 className="px-2"> © 2024 BizCare. All Rights Reserved</h1>
+        <h1 className="px-2"> ©2024 All Rights Reserved</h1>
       </div>
     </div>
   );

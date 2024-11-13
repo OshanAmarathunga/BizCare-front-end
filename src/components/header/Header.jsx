@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,9 +35,11 @@ export default function Header() {
       </div>
 
       <div className="hidden sm:flex h-[40px] justify-end space-x-2 sm:space-x-4">
-        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
+        <Link to={'/about-us'}>
+        <button  className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
           About Us
         </button>
+        </Link>
         <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
           Gallery
         </button>
