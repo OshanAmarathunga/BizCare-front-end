@@ -3,62 +3,62 @@ import React from "react";
 export default function Services() {
   return (
     <div className="bg-white mx-10 rounded-2xl mt-3 md:flex-col p-3">
-      <h1 className="text-[20px] md:text-[50px] font-bold p-3">
+      <h1 className="text-[20px] md:text-[50px] font-bold p-3 font-poppins">
         What we can offer for you !
       </h1>
       <div className="mx-10">
         <div className="bg-blue-950 pt-1 px-5 rounded-2xl mb-2 w-full">
-          <h1 className="text-[15px] text-white md:text-[20px] font-bold">
+          <h1 className="text-[15px] font-poppins text-white md:text-[20px] font-bold">
             1. Finance Services
           </h1>
           <ul className="list-disc text-white pl-5 md:flex sm:flex-row">
             <div className="flex-col justify-between">
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   New Company Registrations
                 </div>
               </li>
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   Secretarial Works
                 </div>
               </li>
               <li className="mb-4 mx-4">
-                <div className=" text-white text-[10px] md:text-[15px] font-light hover:text-yellow-500">
+                <div className=" text-white font-poppins text-[10px] md:text-[15px] font-light hover:text-yellow-500">
                   Income Tax Consultation
                 </div>
               </li>
             </div>
             <div className="flex-col  justify-between">
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] md:text-[15px] font-light font-poppins text-white hover:text-yellow-500">
                   Company Audit{" "}
                 </div>
               </li>
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   Book Keeping
                 </div>
               </li>
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   Preparation of Management Accounts & Final Accounts
                 </div>
               </li>
             </div>
             <div className="flex-col  justify-between">
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   Tender Registration
                 </div>
               </li>
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   "CIDA" Registration
                 </div>
               </li>
               <li className="mb-4 mx-4">
-                <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">
+                <div className="text-[10px] font-poppins md:text-[15px] font-light text-white hover:text-yellow-500">
                   Providing Accounting Software
                 </div>
               </li>
@@ -68,10 +68,10 @@ export default function Services() {
       </div>
 
       <div className="bg-blue-950 pt-1 px-5 mx-10 rounded-2xl mb-2">
-        <h1 className="text-[15px] text-white  md:text-[20px] font-bold">
+        <h1 className="text-[15px] font-poppins text-white  md:text-[20px] font-bold">
           2. Direct & Indirect agricultural exports
         </h1>
-        <ul className="list-disc text-white  pl-5 md:flex sm:flex-row">
+        <ul className="list-disc text-white font-poppins  pl-5 md:flex sm:flex-row">
           <div className="flex-col justify-between">
             <li className="mb-4 mx-4">
               <div className="text-[10px] md:text-[15px] font-light text-white  hover:text-yellow-500">
@@ -88,7 +88,7 @@ export default function Services() {
         </ul>
       </div>
 
-      <div className="bg-blue-950 pt-1 px-5 mx-10 rounded-2xl mb-2">
+      <div className="bg-blue-950 pt-1 font-poppins  px-5 mx-10 rounded-2xl mb-2">
         <h1 className="text-[15px] text-white md:text-[20px] font-bold">
           3. Agricultural export consultancy
         </h1>

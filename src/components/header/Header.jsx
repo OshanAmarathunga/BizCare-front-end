@@ -34,16 +34,16 @@ export default function Header() {
       </div>
 
       <div className="hidden sm:flex h-[40px] justify-end space-x-2 sm:space-x-4">
-        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300">
+        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
           About Us
         </button>
-        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300">
+        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
           Gallery
         </button>
-        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300">
+        <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
           Services
         </button>
-        <button className="rounded-md bg-yellow-300 p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300">
+        <button className="rounded-md font-poppins bg-yellow-300 p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300">
           Contact Us
         </button>
       </div>
