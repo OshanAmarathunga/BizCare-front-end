@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div className="bg-white mx-10 rounded-2xl mt-3 md:flex-col ">
+    <div className="bg-white mx-10 rounded-2xl mt-3 md:flex-col p-3">
       <h1 className="text-[20px] md:text-[50px] font-bold p-3">
         What we can offer for you !
       </h1>
@@ -123,9 +123,7 @@ export default function Services() {
                 Custom clearance and forwarding services
               </div>
             </li>
-            <li className="mb-4 mx-4">
-              <div className="text-[10px] md:text-[15px] font-light text-white hover:text-yellow-500">Papaya</div>
-            </li>
+            
           </div>
           </ul>
         </div>

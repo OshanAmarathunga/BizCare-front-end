@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "../../components/header/Header";
-import ImageSlider from "../../components/slider/Slider";
+import ImageSlider from "../../components/slider/OurClients";
 import Services from "../../components/services/Services";
 import MainView from "../../components/header/MainView";
+import OurClients from "../../components/slider/OurClients";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Header />
       <MainView/>
       <Services/>
+      <OurClients/>
       
     </div>
   );
