@@ -5,7 +5,7 @@ export default function LeaderMessage() {
     <div className="bg-white mx-10 rounded-2xl mt-10">
       <div className="flex flex-col md:flex-row font-poppins px-10 py-5 ">
         <div>
-          <img src="logo.jpg" />
+          <img src="ceo.jpg" />
         </div>
         <div className="bg-gray-100 rounded-3xl p-5">
           <h1 className="font-bold text-[40px] text-center">Message from our Leaders</h1>
