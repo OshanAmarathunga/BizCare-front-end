@@ -35,6 +35,11 @@ export default function Header() {
       </div>
 
       <div className="hidden sm:flex h-[40px] justify-end space-x-2 sm:space-x-4">
+      <Link to={"/"}>
+            <button className="block w-full text-left rounded-md p-2 font-bold hover:bg-yellow-300 font-poppins">
+              Home
+            </button>
+          </Link>
         <Link to={"/about-us"}>
           <button className="rounded-md p-1 sm:p-2 text-sm sm:text-base font-bold hover:bg-yellow-300 font-poppins">
             About Us
@@ -62,6 +67,11 @@ export default function Header() {
 
       {menuOpen && (
         <div className="absolute top-[60px] right-0 bg-white w-full p-4 space-y-2 sm:hidden">
+          <Link to={"/"}>
+            <button className="block w-full text-left rounded-md p-2 font-bold hover:bg-yellow-300">
+              Home
+            </button>
+          </Link>
           <Link to={"/about-us"}>
             <button className="block w-full text-left rounded-md p-2 font-bold hover:bg-yellow-300">
               About Us
