@@ -4,6 +4,7 @@ import AboutUSMain from './AboutUSMain'
 import { FaFacebook } from "react-icons/fa";
 import Mission from './Mission';
 import LeaderMessage from './LeaderMessage';
+import Celibration from './Celibration';
 
 export default function AboutUs() {
   return (
@@ -12,6 +13,7 @@ export default function AboutUs() {
       <AboutUSMain/>
       <Mission/>
       <LeaderMessage/>
+      <Celibration/>
 
       <a
         href="https://www.facebook.com/profile.php?id=100089323530603"
