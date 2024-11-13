@@ -33,7 +33,7 @@ export default function OurClients() {
   };
   return (
     <div className="bg-white mx-10 rounded-2xl mt-3">
-        <h1 className="text-[20px] md:text-[40px] font-bold p-3 font-poppins">
+        <h1 className="text-[20px] md:text-[40px] font-bold p-3 px-6 font-poppins">
         Some of our clients!
       </h1>
       <div className="">
